@@ -9,10 +9,13 @@ jobs:
     steps:
     - name: Check out repository
       uses: actions/checkout@v2
+    - name: Generate report card
+      uses: creekorful/goreportcard-action@v1.0
+    - name: Go Test
+      uses: cedrickring/golang-action@1.5.2
     - name: Update readme according to Go doc
       uses: posener/goreadme@v1
       with:
-        badge-travisci: 'true'
         badge-codecov: 'true'
         badge-golangci: 'true'
         badge-godoc: 'true'
