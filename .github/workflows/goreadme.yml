@@ -14,7 +14,9 @@ jobs:
       with:
         badge-travisci: 'true'
         badge-codecov: 'true'
+        badge-golangci: 'true'
         badge-godoc: 'true'
-        badge-goreadme: 'true'
+        # badge-goreadme: 'true'
+        badge-goreportcard: 'true'
         # Optional: Token allows goreadme to comment the PR with diff preview.
         github-token: '${{ secrets.GITHUB_TOKEN }}'
