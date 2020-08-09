@@ -17,11 +17,11 @@ M = $(shell printf "\033[34;1m▶\033[0m")
 export GO111MODULE=on
 
 .PHONY: all
-all: fmt lint | $(BIN) ; $(info $(M) building executable…) @ ## Build program binary
-	$Q $(GO) build \
-		-tags release \
-		-ldflags '-X $(MODULE)/cmd.Version=$(VERSION) -X $(MODULE)/cmd.BuildDate=$(DATE)' \
-		-o $(BIN)/$(basename $(MODULE)) main.go
+# all: fmt lint | $(BIN) ; $(info $(M) building executable…) @ ## Build program binary
+# 	$Q $(GO) build \
+# 		-tags release \
+# 		-ldflags '-X $(MODULE)/cmd.Version=$(VERSION) -X $(MODULE)/cmd.BuildDate=$(DATE)' \
+# 		-o $(BIN)/$(basename $(MODULE)) main.go
 
 # Tools
 
