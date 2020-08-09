@@ -1,6 +1,5 @@
 # tvmazeclient
 
-[![Build Status](https://travis-ci.org/patpicos/tvmazeclient.svg?branch=master)](https://travis-ci.org/patpicos/tvmazeclient)
 [![codecov](https://codecov.io/gh/patpicos/tvmazeclient/branch/master/graph/badge.svg)](https://codecov.io/gh/patpicos/tvmazeclient)
 [![golangci](https://golangci.com/badges/github.com/patpicos/tvmazeclient.svg)](https://golangci.com/r/github.com/patpicos/tvmazeclient)
 [![GoDoc](https://img.shields.io/badge/pkg.go.dev-doc-blue)](http://pkg.go.dev/github.com/patpicos/tvmazeclient)
