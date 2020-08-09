@@ -1,4 +1,4 @@
-module github.com/patpicos/gotrader/tvmazeclient
+module github.com/patpicos/tvmazeclient
 
 go 1.14
 
